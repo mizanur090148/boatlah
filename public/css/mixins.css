@@ -1,0 +1,196 @@
+/* Mixin */
+/* Implementation */
+#div {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+/* Implementation */
+#div {
+  -webkit-border-radius: 20px 20px 0px 0px;
+  -moz-border-radius: 20px 20px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
+}
+/* Implementation */
+#div {
+  -webkit-box-shadow: 5px 5px 6px 0.3;
+  -moz-box-shadow: 5px 5px 6px 0.3;
+  box-shadow: 5px 5px 6px 0.3;
+  -webkit-box-shadow: 5px 5px 6px 0.3 3px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 5px 6px 0.3 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 6px 0.3 3px 5px rgba(0, 0, 0, 0.5);
+}
+/* Implementation */
+.transition-all {
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in 0.3s linear;
+  -moz-transition: all 0.3s ease-in 0.3s linear;
+  -o-transition: all 0.3s ease-in 0.3s linear;
+  -ms-transition: all 0.3s ease-in 0.3s linear;
+  transition: all 0.3s ease-in 0.3s linear;
+}
+#div:hover {
+  opacity: 0;
+}
+/* Implementation */
+#div {
+  -webkit-transform: rotate(5deg) scale(0.5) skew(1deg) translatex(10px);
+  -moz-transform: rotate(5deg) scale(0.5) skew(1deg) translatex(10px);
+  -o-transform: rotate(5deg) scale(0.5) skew(1deg) translatex(10px);
+  -ms-transform: rotate(5deg) scale(0.5) skew(1deg) translatex(10px);
+  transform: rotate(5deg) scale(0.5) skew(1deg) translatex(10px);
+  -webkit-transform: rotate(5deg) scale(0.5) skew(1deg) translate(10px);
+  -moz-transform: rotate(5deg) scale(0.5) skew(1deg) translate(10px);
+  -o-transform: rotate(5deg) scale(0.5) skew(1deg) translate(10px);
+  -ms-transform: rotate(5deg) scale(0.5) skew(1deg) translate(10px);
+  transform: rotate(5deg) scale(0.5) skew(1deg) translate(10px);
+}
+/* gradient Implementation */
+#div {
+  background-color: #663333;
+  background-image: -webkit-linear-gradient(left, #663333, #333333);
+  background-image: -moz-linear-gradient(left, #663333, #333333);
+  background-image: -o-linear-gradient(left, #663333, #333333);
+  background-image: -ms-linear-gradient(left, #663333, #333333);
+  background-image: linear-gradient(left, #663333, #333333);
+}
+.layer-img {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: .2;
+  height: 100%;
+  width: 100%;
+}
+/* Implementation */
+#div {
+  background-color: #BADA55;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+}
+/* .cover {
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+} */
+#div {
+  background-color: #ff0000;
+  background-color: rgba(255, 0, 0, 0.2);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33ff0000, endColorstr=#33ff0000);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33ff0000, endColorstr=#33ff0000);
+}
+/*
+[class*="span"] {
+  float: left;
+  min-height: 1px; // prevent collapsing columns
+}
+*/
+.transition {
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+/* Implementation */
+#div {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+/* Implementation */
+#div {
+  -webkit-border-radius: 20px 20px 0px 0px;
+  -moz-border-radius: 20px 20px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
+}
+/* Implementation */
+#div {
+  -webkit-box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3);
+}
+/* Implementation */
+.transition-all {
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+#div:hover {
+  opacity: 0;
+}
+/* Implementation */
+#div {
+  -webkit-transform: rotate(5deg) scale(0.5) skew(1deg) translatex(0px);
+  -moz-transform: rotate(5deg) scale(0.5) skew(1deg) translatex(0px);
+  -o-transform: rotate(5deg) scale(0.5) skew(1deg) translatex(0px);
+  -ms-transform: rotate(5deg) scale(0.5) skew(1deg) translatex(0px);
+  transform: rotate(5deg) scale(0.5) skew(1deg) translatex(0px);
+  -webkit-transform: rotate(5deg) scale(0.5) skew(1deg) translate(0px);
+  -moz-transform: rotate(5deg) scale(0.5) skew(1deg) translate(0px);
+  -o-transform: rotate(5deg) scale(0.5) skew(1deg) translate(0px);
+  -ms-transform: rotate(5deg) scale(0.5) skew(1deg) translate(0px);
+  transform: rotate(5deg) scale(0.5) skew(1deg) translate(0px);
+}
+/* gradient Implementation */
+#div {
+  background-color: #663333;
+  background-image: -webkit-linear-gradient(left, #663333, #333333);
+  background-image: -moz-linear-gradient(left, #663333, #333333);
+  background-image: -o-linear-gradient(left, #663333, #333333);
+  background-image: -ms-linear-gradient(left, #663333, #333333);
+  background-image: linear-gradient(left, #663333, #333333);
+}
+/* Implementation */
+#div {
+  background-color: #BADA55;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+}
+.cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#div {
+  background-color: #ff0000;
+  background-color: rgba(255, 0, 0, 0.2);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33ff0000, endColorstr=#33ff0000);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33ff0000, endColorstr=#33ff0000);
+}
+#div:-moz-placeholder {
+  color: #ffffff;
+}
+#div:-ms-input-placeholder {
+  color: #ffffff;
+}
+#div::-webkit-input-placeholder {
+  color: #ffffff;
+}
+#div::-webkit-input-placeholder {
+  color: #ffffff;
+}
+#div::-moz-placeholder {
+  color: #ffffff;
+}
+#div:-ms-input-placeholder {
+  color: #ffffff;
+}
+#div:-ms-input-placeholder {
+  color: #ffffff;
+}

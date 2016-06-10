@@ -1,0 +1,104 @@
+
+
+body {
+  background: #fff;
+  color: @text-color;
+  font-family: @base-font;
+ // font-family: @base-roboto;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+p {    
+	font-size: 16px;
+	color:@gray;
+	}
+
+p{
+	&.micro{
+		font-size:12px;
+	}
+}
+p:first-letter{
+	text-transform:uppercase;
+}
+
+.sub{
+	font-family:@base-font-medium;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: @proxima-bold;
+  font-family: @base-roboto;
+  font-weight:700;
+  color: @gray-base;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: normal; 
+  -webkit-font-smoothing: antialiased;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; color: @title-color;}
+
+
+h1, h2, h3, h4, h5, h6, p, dl, hr, ol, ul, pre, table, address, fieldset { margin-bottom: 10px; }
+
+.font, .btn {
+}
+
+
+
+a {
+  color: @link-color;
+  outline: 0;
+  transition: all 0.2s linear 0s, letter-spacing 0s linear 0s;
+  -webkit-transition: all 0.2s linear 0s, letter-spacing 0s linear 0s;
+  cursor: pointer;
+}
+
+a:focus, a:hover, a:active {
+  outline: none;
+  text-decoration: none;
+  color: @link-color-hover;
+}
+*,*:focus{
+	outline:none;
+}
+ul{
+	list-style:none;
+}
+ol,ul{
+	padding:0;
+	margin:0;
+}
+img{
+	max-width:100%;
+}
+
+
+.c-white{
+	color: @white;
+}
+.c-focus{
+	color:#135929;
+}
+.form-control{
+	border-radius:0;
+	-webkit-box-shadow:none;
+		box-shadow:none;
+	
+	&:focus{
+		-webkit-box-shadow:none;
+		box-shadow:none;
+		outline:0;
+	}
+}
+*,*:hover,*:focus,*:active{
+	outline:o;
+}
+
+.title{
+	text-transform:uppercase;
+}

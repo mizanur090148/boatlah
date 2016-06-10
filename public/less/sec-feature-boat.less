@@ -1,0 +1,67 @@
+.section-feature-boat{
+	padding:70px 0;
+	background: url(../images/bg3.jpg) no-repeat left center;
+	background:#fff;
+    background-size: cover;
+	//background-attachment: fixed;
+}
+
+.boat-info{
+	padding:20px;
+	//box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+	background:@base-color;
+	color:#fff;
+	
+	h4,h5{
+		color:#fff;
+	}
+	
+	.abs{
+		position:absolute;
+		top:0;
+		right: 0;
+		width: 70px;
+		height: 40px;
+		line-height: 40px;
+		background: rgba(255, 255, 255,0.85);
+		color: #2d2d2d;
+		text-align: center;
+		font-weight: 700;
+		font-family: "Roboto condensed";
+	}
+}
+
+.panel-block{
+	&.feature{
+		margin-top:40px;
+		position:relative;
+		 .transition(all  0.3s  ease-in);
+		&:hover{
+			box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+		}
+		
+		
+
+	}
+}
+
+.feature{
+	.media{
+		img{
+		   -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+		   -moz-filter: grayscale(100%); /* Chrome, Safari, Opera */
+			filter: grayscale(100%);
+			
+		}
+	}
+	
+	&:hover{
+		.media{
+			img{
+				-webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+				-moz-filter: grayscale(0%); /* Chrome, Safari, Opera */
+				filter: grayscale(0%);
+			}
+		}
+	}
+}

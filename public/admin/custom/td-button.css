@@ -1,0 +1,12 @@
+.td-actions .btn {
+    font-size: 16px;
+    padding: 0 10px;
+    border:none;
+    background-color: transparent !important;
+}
+.td-actions .btn:hover {
+    color: inherit;
+}
+.td-actions form {
+    display: inline-block;
+}

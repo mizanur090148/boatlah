@@ -1,0 +1,57 @@
+.section-boating-highlights{
+	padding:100px 0 90px;
+	position:relative;
+	background: url(../images/img-thing.jpg) no-repeat left center;
+    background-size: cover;
+	
+	.bg-layer{
+		background: rgba(245,245,245,0.93);
+	}
+}
+.panel-block{
+	&.highlights{
+		text-align:center;
+		-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
+		-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
+		box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.1);
+		margin-top:50px;
+		height:340px;
+		background:#fff;
+		
+		.title{
+			background:@base-color;
+			
+			h3{
+				color:#fff;
+			}
+		}
+
+		&:hover {
+			-webkit-box-shadow: 0px 0 2px 0px rgba(0,0,0,0.1);
+			-moz-box-shadow: 0px 0 2px 0px rgba(0,0,0,0.1);
+			box-shadow: 0px 0 2px 0px rgba(0,0,0,0.1);
+
+			.media {
+				&.icon {
+					color: @brand-primary;
+				}
+			}
+		}
+	}
+	
+	.title{
+		padding:30px 0 10px;
+	}
+	
+	.media{
+		&.icon{
+			font-size:80px;
+			color:@base-gray;
+			padding: 20px 0 10px;
+		}
+	}
+	
+	.content{
+		padding:20px;
+	}
+}

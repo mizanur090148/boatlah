@@ -1,0 +1,276 @@
+
+.block-wrapper{
+	.block{
+		margin-bottom:25px;
+	}
+}
+
+.block{
+	>.content{
+		padding:20px;
+		background:#fff;
+		-webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+		-moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+		box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+		.border-radius(0 0 4px 4px);
+	}
+}
+
+
+///Review
+
+.review-block{
+	> .content{
+		padding:0;
+		
+	}
+}
+
+.review{
+	padding:20px;
+	border-bottom: 1px solid @white-gray2;
+	
+	.media{
+		width:80px;
+		img{
+			width:56px;
+			height:56px;
+			border-radius:50%;
+		}
+		span{
+			display:block;
+			margin-top:10px;
+			font-size:12px;
+			font-family:@base-font-medium;
+		}
+	}
+	.content{
+		vertical-align:top;
+		padding:0 20px 0;
+		background:transparent;
+	}
+	
+	&.reply{
+		background:@white-gray2;
+	}
+	
+	&:last-child{
+		.border-radius(0 0 4px 4px);
+	}
+	
+	.review-rating{
+		float:right;
+	}
+}
+
+.header-bar{
+	.review-rating{
+		float:right;
+	}
+}
+
+	.review-rating{
+		color:@base-yellow;
+		font-size:16px;
+	}
+	.avg-rat{
+		float:right;
+		margin-top:-5px;
+		clear:right;
+		font-size:11px;
+		font-style:italic;
+	}
+.owner{
+	.media{
+		.border-radius(4px 4px 0 0);
+		img{
+			width:100%;
+		}
+	}
+	
+	.details{
+		padding:20px;
+		
+		h3{
+			color:@base-color;
+			text-transform:uppercase;
+		}
+	}
+}
+
+.widget-verification{
+	.bar{
+		padding:20px 25px 18px;
+		background:#fff;
+		border-bottom: 1px solid @white-gray2;
+		.border-radius(0 0 4px 4px);
+		
+		.icon{
+			font-size:20px;
+			color:#ddd;
+			width:30px;
+			padding-top:3px;
+		}
+		
+		&:nth-child(even){
+			background:lighten(@white-gray2, 10%);
+		}
+		
+		h4{
+			margin:0;
+			color:@header-color;
+			display:inline-block;
+			text-transform:capitalize;
+		}
+		.bar-content{
+			vertical-align:top;
+			h5{
+				margin:2px 0 0;
+				color:@gray-lighter;
+			}
+		}
+		
+		&.verified{
+			.icon{
+				color:@accent-color;
+			}
+		}
+	}
+}
+
+
+
+
+
+.boat-location{
+	margin-top:20px;
+}
+
+.filter-boat-location{
+	#map{
+		height:550px;
+	}
+}
+
+
+
+.boat-filter-search{
+	label{
+		font-family:@base-font-bold;
+	}
+	.inner{
+		padding:30px 15px;
+		max-width:500px;
+		margin:0 auto;
+	}
+	.search-block{
+		margin-bottom:20px;
+	}
+}
+
+.widget-captain{
+	.media{
+		margin:0;
+	}
+	.content{
+		padding: 20px 25px;
+	}
+}
+.trip-history{
+	background:#fff;
+	padding:20px;
+	
+	.dataTables_filter, 
+	.dataTables_length{
+		display:none;
+	}
+	
+	thead{
+		tr{
+			td{
+				background:@base-color;
+				color:#fff;
+				border-color:lighten(@base-color, 2%);
+			}
+		}
+	}
+	table.dataTable{
+		border-color:transparent;
+		
+		tbody th, tbody td{
+			padding:20px 10px;
+			border-color:transparent;
+		}
+		
+		&.no-footer{
+			border-bottom:1px solid #ddd;
+		}
+	} 
+	
+	.cred{
+		color:@accent-color;
+	}
+}
+
+
+
+//cONFIRMATION PAGE
+
+dl{
+	dt{
+		//font-family:@base-font-bold;
+	}
+}
+
+.confirmation-info{
+	text-align:center;
+	max-width:450px;
+	padding:20px;
+	margin:0px auto;
+	background:#f3f3f3;
+	.border-radius(4px);
+	.dl-horizontal{
+		margin-top:25px;
+		dt{
+			padding:5px 0;
+			font-weight:300;
+			
+		}
+		dd{
+			text-align:left;
+			padding:5px 0;
+			font-family:@base-font-bold;
+		}
+	}
+	
+	@media @xsOnly{
+		.dl-horizontal{
+			dt{
+				text-align:left;
+			}
+		}
+	}
+}
+
+
+
+.details{
+	.media{
+		img{
+			max-width:150px;
+		}
+	}
+	
+	.text{
+		padding-left:20px;
+		vertical-align:top;
+	}
+	
+	.info{
+		span{
+			font-family:@base-roboto;
+			font-weight:700;
+			padding-left:7px;
+		}
+	}
+}

@@ -1,0 +1,73 @@
+.section-mobile-boating{
+	padding:90px 0 0;
+	position:relative;
+	background:url(../images/bg2.jpg) no-repeat center center;
+	.cover();
+	
+	.bg-layer{
+		//background:rgba(0,0,0,0.85);
+	}
+	.info-block{
+		//background:rgba(255,255,255,0.1);
+	}
+}
+
+
+
+.info-block{
+	margin-top:50px;
+	padding:30px 15px 20px;
+	//min-height:164px;
+	
+	i{
+		padding-right:10px;
+	}
+}
+
+.app-link{
+	margin-top:50px;
+	
+	>div{
+		&:first-child{
+			text-align:right;
+		}
+		&:last-child{
+			text-align:left;
+		}
+	}
+	
+	a{
+		img{
+			width:155px;
+			height:50px;
+			margin-bottom:30px;
+		}
+		
+		&:hover{
+			opacity:0.8;
+		}
+	}
+}
+
+
+.mobile-block{
+    bottom: 0;
+	margin-bottom:30px;
+	
+	img{
+		width:340px;
+		max-width:100%;
+	}
+}
+
+@media @mdmin{
+
+	.mobile-boating-block{
+		padding-left: 41.66666667%
+	}
+	.mobile-block{
+		padding-top:50px;
+		position: absolute;
+		margin-bottom:0;
+	}
+}

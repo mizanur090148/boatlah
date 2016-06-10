@@ -1,0 +1,13 @@
+.side-menu ul li a {
+  background: none repeat scroll 0 0 #ffffff;
+  border-bottom: 1px solid #e1e1e1;
+  display: block;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+.side-menu ul li a i {
+  padding-right: 7px;
+}

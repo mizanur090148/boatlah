@@ -1,0 +1,160 @@
+.anc-block {
+	display: block !important;
+}
+.cc-title {
+	padding: 20px;
+	margin: 0;
+	text-transform: uppercase;
+	border-bottom: 1px solid @border-color;
+
+	span {
+		color: @base-yellow;
+		display: inline-block;
+		margin-right: 10px;
+	}
+
+	.btn {
+		display: block;
+		max-width: 160px;
+		margin: 12px auto 0;
+	}
+}
+
+.table.dataTable.no-footer {
+	border-bottom-color: @border-color;
+}
+
+.table {
+	&.dtable-default {
+		border-top: 1px solid @border-color;
+		tr {
+
+			td {
+				vertical-align: middle;
+				padding: 15px;
+				.company-binfo {
+					.com-thumb {
+						float: left;
+						width: 120px;
+						
+
+						img {
+							
+						}
+					}
+					.com-note {
+						overflow: hidden;
+						padding-left: 20px;
+
+						.btn-sm {
+							padding: 5px 8px !important;
+						}
+
+						.req-connect {
+							color: @base-yellow;
+							font-weight: bold;
+							font-size: 12px;
+							text-transform: uppercase;
+							letter-spacing: 1px;
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+
+		&.datatable {
+			tbody {
+				tr {
+					&.odd {
+						background-color: #fff;
+
+						> .sorting_1 {
+							background-color: #fff;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.table-xpadd {
+		tr {
+			td {
+				padding: 20px;
+			}
+		}
+	}
+}
+
+#myCompany_length {
+	padding: 20px 20px 15px;
+
+	select {
+		border: 1px solid @border-color;
+		padding: 6px 12px;
+		height: 34px;
+	}
+}
+#myCompany_filter {
+	padding: 20px 20px 15px;
+
+	input {
+		border: 1px solid @border-color;
+		padding: 6px 12px;
+		height: 34px;
+	}
+}
+
+#myCompany_info, #myCompany_paginate {
+	padding: 20px 20px 15px;
+	margin: 0;
+}
+
+.padel {
+	&.padel-default {
+		background-color: #fff;
+	}
+}
+
+.side-filter {
+	background-color: #fff;
+	.inner {
+		width: auto;
+		max-width: auto;
+		margin: 0;
+		padding: 20px;
+	}
+}
+
+.alert {
+	&.alert-notification {
+		font-family: @base-font-medium;
+		color: #fff;
+		margin: 0;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		.border-radius(0);
+		border: none;
+
+		&.alert-info {
+			background-color: @brand-info;
+		}
+		&.alert-danger {
+			background-color: @brand-danger;
+		}
+		&.alert-warning {
+			background-color: @base-yellow;
+		}
+		&.alert-success {
+			background-color: @base-green;
+		}
+
+
+
+		.close {
+			.opacity(1);
+			box-shadow: none;
+		}
+	}
+}

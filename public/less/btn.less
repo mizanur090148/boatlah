@@ -1,0 +1,117 @@
+
+
+btn,.btn-default, .btn-primary,.btn-info,.btn-success,.btn-warning,.btn-danger{
+	.border-radius(0px);
+	letter-spacing:2px;
+	font-size: 12px;
+	font-family: @base-font-medium;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 10px 24px;
+	display:inline-block;
+	
+	&.full{
+		width:100%;
+	}
+	
+	&:hover,&:focus{
+		color:#fff!important;
+		outline:0;
+	}
+
+}
+
+
+
+.btn-primary {
+  //border: 1px solid @base-color;
+  background: @base-color;
+  color: @white!important;
+
+  i {
+    display: inline-block;
+    padding-left: 10px;
+	
+	&:first-child{
+		padding-right: 10px;
+		padding-left: 0px;
+	}
+  }
+
+  &:focus,
+  &:active:focus,
+  &.active:focus,
+  &.focus,
+  &:active.focus,
+  &.active.focus {
+    background: @base-color-darker;
+	outline:0;
+
+  }
+  &:hover,
+  &:focus,
+  &.focus {
+    color: @white;
+    text-decoration: none;
+    background: @base-color-darker;
+    border-color: @base-color-darker;
+  }
+  &:active,
+  &.active {
+    background: @base-color-darker;
+  }
+
+  &.has-p {
+    margin-top: 25px;
+  }
+
+}
+
+
+.btn-default {
+  //border: 1px solid #fff;
+  background: #fff;
+  color: @text-color;
+ 
+  
+  &:focus,
+  &:active:focus,
+  &.active:focus,
+  &.focus,
+  &:active.focus,
+  &.active.focus {
+    opacity:0.95;
+  }
+  &:hover,
+  &:focus,
+  &.focus {
+    text-decoration: none;
+	opacity:0.95;
+  }
+  &:active,
+  &.active {
+    background: @white;
+  }
+
+
+}
+
+
+
+
+.btn-md{
+	padding: 10px 15px !important;
+    line-height: 1.5;
+}
+.btn-sm{
+	padding: 8px 10px !important;
+    font-size: 11px !important;
+    line-height: 1.5;  
+}
+
+.btn {
+  &.btn-xsm {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+}

@@ -1,0 +1,231 @@
+
+//boat details
+
+.boat-deatails{
+	background:#fff;
+	padding:40px;
+	.border-radius(4px);
+	
+	.post-title{
+		font-family:@proxima-light;
+	}
+	.content{
+		padding-top:30px;
+	}
+}
+.boat-summery{
+	.breadcrumbs{
+		li{
+			display:inline-block;
+			padding:0 5px;
+			position:relative;
+			
+				&:before{
+					content:"/";
+					position:relative;
+					left:-7px;
+				}
+			a{
+				
+			}
+			
+			&:first-child{
+				padding-left:0;
+				
+				&:before{
+					display:none;
+				}
+			
+			}
+		}
+	}
+}
+
+
+.sigle-boat-slider{
+	.slick-prev{
+		left:0;
+		z-index:99;
+	}
+	.slick-next{
+		right:0;
+		z-index:99;
+	}
+	.slick-next, .slick-prev{
+		width:36px;
+		height:36px;
+		background:rgba(255,255,255,0.4);
+	}
+	.slick-prev:before, .slick-next:before{
+		font-size:22px;
+		line-height:42px;
+	}
+}
+
+.reservation{
+	//background:#EDF9FE!important;
+	
+	.rate{
+		padding:15px 10px 0;
+		.price{
+			font-size:48px;
+			font-weight:700;
+			padding-top:15px;
+			
+			sup{
+				top:-12px;
+				font-weight:400;
+				font-size:60%;
+			}
+		}
+		.price-option{
+			position:relative;
+			top:-10px;
+		}
+		
+		li{
+			display:inline-block;
+			width:49%;
+		}
+	}
+	
+	.reservation-date-time{
+		display:none;
+		.reserve-date-range-input{
+			width:;
+		}
+	}
+	.estimate-sec{
+		background:#fff;
+	}
+	.estimate{
+		text-align:right;
+		font-family:@base-font-bold;
+		text-transform:uppercase;
+		font-size:18px;
+		
+	}
+	.reserve-submit{
+		text-align:center;
+		
+	}
+	
+	.label-title{
+		font-family:@base-font-bold;
+	}
+	.heading{
+		padding:5px 20px;
+		background:#fff;
+	}
+}
+.reservation-date-time{
+	display:none;
+}
+.list-half{
+	li{
+		display:block;
+		float:left;
+		width:50%;
+		padding: 5px 0;
+		
+		i{
+			padding-right:10px;
+			color:lighten(@base-color, 5%);
+		}
+	}
+}
+
+.boat-feature{
+	li{
+		font-family:@base-font-light;
+	}
+}
+
+.boat-definition{
+	background:#EDF9FE!important;
+}
+
+.definition-list{
+
+	dt{
+		float:left;
+		font-family:@base-font-medium;
+		font-weight:500;
+		margin:0 0 5px;
+	}
+	dd{
+		text-align:right;
+		margin:0 0 5px;
+	}
+}
+
+.panel-section{
+	&.boat-destination{
+		background:#EDF9FE!important;
+	}
+	.chosen-container-single{
+		width:100%!important;
+	}
+	.chosen-single.chosen-default{
+		background:#fff;
+		-webkit-box-shadow:none;
+		box-shadow:none;
+		.border-radius(0px);
+		height:34px;
+		line-height:34px;
+		
+		div{
+			b{
+				background:url('chosen-sprite.png') no-repeat 0px 7px;
+			}
+		}
+	}
+	.chosen-container-active.chosen-with-drop{
+		 .chosen-single div b{
+			background-position: -18px 7px;
+		 }
+	}
+}
+.zone-selection{
+	
+	.active{
+		position:relative;
+		
+		.btn{
+			cursor:no-drop;
+			
+			&:before{
+				content:"\f00c";
+				position:absolute;
+				right:12px;
+				top:12px;
+				font-family:fontAwesome;
+				color:#fff;
+			}
+			
+		
+			background:darken(@base-color, 10%);
+		
+		}
+	}
+}
+
+.boat-meta-description{
+	margin-top:30px;
+	
+	tbody>tr>td{
+		padding-left:20px;
+	}
+	.title{
+		background:#F8F8F8!important;
+		font-family:@base-font-bold;	
+	}
+	
+	@media @xs600{
+		.table>tbody>tr>td{
+			display:block;
+		}
+	}
+}
+
+

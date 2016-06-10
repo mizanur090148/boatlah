@@ -1,0 +1,222 @@
+@font-face {
+    font-family:'Gotham-Black';
+    src: url('Gotham-Black_gdi.eot');
+    src: url('Gotham-Black_gdi.eot?#iefix') format('embedded-opentype'),
+    url('Gotham-Black_gdi.woff') format('woff'),
+    url('Gotham-Black_gdi.ttf') format('truetype'),
+    url('Gotham-Black_gdi.svg#Gotham-Black') format('svg');
+    font-weight: 425;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+	font-family:'Gotham-BlackItalic';
+	src: url('Gotham-BlackItalic_gdi.eot');
+	src: url('Gotham-BlackItalic_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Gotham-BlackItalic_gdi.woff') format('woff'),
+		url('Gotham-BlackItalic_gdi.ttf') format('truetype'),
+		url('Gotham-BlackItalic_gdi.svg#Gotham-BlackItalic') format('svg');
+	font-weight: 425;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family:'Gotham-Bold';
+    src: url('Gotham-Bold_gdi.eot');
+    src: url('Gotham-Bold_gdi.eot?#iefix') format('embedded-opentype'),
+    url('Gotham-Bold_gdi.woff') format('woff'),
+    url('Gotham-Bold_gdi.ttf') format('truetype'),
+    url('Gotham-Bold_gdi.svg#Gotham-Bold') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family:'Gotham-BoldItalic';
+    src: url('Gotham-BoldItalic_gdi.eot');
+    src: url('Gotham-BoldItalic_gdi.eot?#iefix') format('embedded-opentype'),
+    url('Gotham-BoldItalic_gdi.woff') format('woff'),
+    url('Gotham-BoldItalic_gdi.ttf') format('truetype'),
+    url('Gotham-BoldItalic_gdi.svg#Gotham-BoldItalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family:'Gotham-Book';
+    src: url('Gotham-Book_gdi.eot');
+    src: url('Gotham-Book_gdi.eot?#iefix') format('embedded-opentype'),
+    url('Gotham-Book_gdi.woff') format('woff'),
+    url('Gotham-Book_gdi.ttf') format('truetype'),
+    url('Gotham-Book_gdi.svg#Gotham-Book') format('svg');
+    font-weight: 325;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family:'Gotham-BookItalic';
+    src: url('Gotham-BookItalic_gdi.eot');
+    src: url('Gotham-BookItalic_gdi.eot?#iefix') format('embedded-opentype'),
+    url('Gotham-BookItalic_gdi.woff') format('woff'),
+    url('Gotham-BookItalic_gdi.ttf') format('truetype'),
+    url('Gotham-BookItalic_gdi.svg#Gotham-BookItalic') format('svg');
+    font-weight: 325;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family:'Gotham-ExtraLight';
+    src: url('Gotham-ExtraLight_gdi.eot');
+    src: url('Gotham-ExtraLight_gdi.eot?#iefix') format('embedded-opentype'),
+    url('Gotham-ExtraLight_gdi.woff') format('woff'),
+    url('Gotham-ExtraLight_gdi.ttf') format('truetype'),
+    url('Gotham-ExtraLight_gdi.svg#Gotham-ExtraLight') format('svg');
+    font-weight: 275;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family:'Gotham-ExtraLightItalic';
+    src: url('Gotham-ExtraLightItalic_gdi.eot');
+    src: url('Gotham-ExtraLightItalic_gdi.eot?#iefix') format('embedded-opentype'),
+    url('Gotham-ExtraLightItalic_gdi.woff') format('woff'),
+    url('Gotham-ExtraLightItalic_gdi.ttf') format('truetype'),
+    url('Gotham-ExtraLightItalic_gdi.svg#Gotham-ExtraLightItalic') format('svg');
+    font-weight: 275;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family:'Gotham-Light';
+    src: url('Gotham-Light_gdi.eot');
+    src: url('Gotham-Light_gdi.eot?#iefix') format('embedded-opentype'),
+    url('Gotham-Light_gdi.woff') format('woff'),
+    url('Gotham-Light_gdi.ttf') format('truetype'),
+    url('Gotham-Light_gdi.svg#Gotham-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family:'Gotham-LightItalic';
+    src: url('Gotham-LightItalic_gdi.eot');
+    src: url('Gotham-LightItalic_gdi.eot?#iefix') format('embedded-opentype'),
+    url('Gotham-LightItalic_gdi.woff') format('woff'),
+    url('Gotham-LightItalic_gdi.ttf') format('truetype'),
+    url('Gotham-LightItalic_gdi.svg#Gotham-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+
+@font-face {
+    font-family:'Gotham-Medium';
+    src: url('Gotham-Medium_gdi.eot');
+    src: url('Gotham-Medium_gdi.eot?#iefix') format('embedded-opentype'),
+    url('Gotham-Medium_gdi.woff') format('woff'),
+    url('Gotham-Medium_gdi.ttf') format('truetype'),
+    url('Gotham-Medium_gdi.svg#Gotham-Medium') format('svg');
+    font-weight: 350;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family:'Gotham-MediumItalic';
+    src: url('Gotham-MediumItalic_gdi.eot');
+    src: url('Gotham-MediumItalic_gdi.eot?#iefix') format('embedded-opentype'),
+    url('Gotham-MediumItalic_gdi.woff') format('woff'),
+    url('Gotham-MediumItalic_gdi.ttf') format('truetype'),
+    url('Gotham-MediumItalic_gdi.svg#Gotham-MediumItalic') format('svg');
+    font-weight: 350;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family:'Gotham-Thin';
+    src: url('Gotham-Thin_gdi.eot');
+    src: url('Gotham-Thin_gdi.eot?#iefix') format('embedded-opentype'),
+    url('Gotham-Thin_gdi.woff') format('woff'),
+    url('Gotham-Thin_gdi.ttf') format('truetype'),
+    url('Gotham-Thin_gdi.svg#Gotham-Thin') format('svg');
+    font-weight: 250;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family:'Gotham-ThinItalic';
+    src: url('Gotham-ThinItalic_gdi.eot');
+    src: url('Gotham-ThinItalic_gdi.eot?#iefix') format('embedded-opentype'),
+    url('Gotham-ThinItalic_gdi.woff') format('woff'),
+    url('Gotham-ThinItalic_gdi.ttf') format('truetype'),
+    url('Gotham-ThinItalic_gdi.svg#Gotham-ThinItalic') format('svg');
+    font-weight: 250;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family:'Gotham-Ultra';
+    src: url('Gotham-Ultra_gdi.eot');
+    src: url('Gotham-Ultra_gdi.eot?#iefix') format('embedded-opentype'),
+    url('Gotham-Ultra_gdi.woff') format('woff'),
+    url('Gotham-Ultra_gdi.ttf') format('truetype'),
+    url('Gotham-Ultra_gdi.svg#Gotham-Ultra') format('svg');
+    font-weight: 450;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+
+@font-face {
+    font-family:'Gotham-UltraItalic';
+    src: url('Gotham-UltraItalic_gdi.eot');
+    src: url('Gotham-UltraItalic_gdi.eot?#iefix') format('embedded-opentype'),
+    url('Gotham-UltraItalic_gdi.woff') format('woff'),
+    url('Gotham-UltraItalic_gdi.ttf') format('truetype'),
+    url('Gotham-UltraItalic_gdi.svg#Gotham-UltraItalic') format('svg');
+    font-weight: 450;
+    font-style: italic;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family:'GothamUltra-Regular';
+    src: url('GothamUltra_gdi.eot');
+    src: url('GothamUltra_gdi.eot?#iefix') format('embedded-opentype'),
+    url('GothamUltra_gdi.woff') format('woff'),
+    url('GothamUltra_gdi.ttf') format('truetype'),
+    url('GothamUltra_gdi.svg#GothamUltra-Regular') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2248;
+}
